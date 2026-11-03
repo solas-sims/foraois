@@ -5,6 +5,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23077022.svg)](https://doi.org/10.5281/zenodo.23077022)
+[![arXiv](https://img.shields.io/badge/arXiv-2611.01580-b31b1b.svg)](https://arxiv.org/abs/2611.01580)
 
 ### Monte Carlo dark matter halo merger trees, for a range of dark matter models
 
@@ -35,6 +36,19 @@ tables. Because the fast kernels only ever consume those tables -- never
 `P(k)` directly -- any dark matter model that can be expressed as a modified
 power spectrum/window function (e.g. WDM, fuzzy/scalar-field DM) plugs in at
 the `CosmoData` layer without touching the tree-building code itself.
+
+## Citing foraois
+
+If you use this code, please cite the software-release paper (accepted by
+*Astronomy and Computing*; preprint at
+[arXiv:2611.01580](https://arxiv.org/abs/2611.01580)):
+
+> Power, C. & Balu, S. 2026, "foraois: Fast, Flexible Extended Press-Schechter
+> Merger Trees with a General First-Crossing Solver", Astronomy and Computing,
+> in press, [arXiv:2611.01580](https://arxiv.org/abs/2611.01580)
+
+A machine-readable citation (including the specific version you used, via the
+Zenodo DOI above) is in [CITATION.cff](CITATION.cff).
 
 ## Installation
 

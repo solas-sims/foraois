@@ -30,11 +30,28 @@ keywords:
 license: MIT
 version: 0.1.2
 date-released: "2026-10-02"
-# No preferred-citation yet: that field should point to the paper
-# describing this software itself, not the algorithms it implements --
-# add it once that paper exists. PCH08, N23, and Zhang & Hui (2006) are
-# listed under references below since they're the algorithms this code
-# implements, not citations for the code itself.
+preferred-citation:
+  type: article
+  title: "foraois: Fast, Flexible Extended Press-Schechter Merger Trees with a General First-Crossing Solver"
+  authors:
+    - family-names: "Power"
+      given-names: "Chris"
+      orcid: "https://orcid.org/0000-0002-4003-0904"
+    - family-names: "Balu"
+      given-names: "Sreedhar"
+      orcid: "https://orcid.org/0000-0002-5281-5151"
+  journal: "Astronomy and Computing"
+  year: 2026
+  status: in-press
+  identifiers:
+    - type: other
+      value: "arXiv:2611.01580"
+      description: "arXiv preprint"
+  url: "https://arxiv.org/abs/2611.01580"
+  # Accepted by Astronomy and Computing (2026); journal DOI/volume/pages not
+  # yet assigned at time of writing. PCH08, N23, and Zhang & Hui (2006) are
+  # listed under references below since they're the algorithms this code
+  # implements, not citations for the code itself.
 references:
   - type: article
     authors:
